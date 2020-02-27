@@ -5,9 +5,7 @@
 <!--- __Customization:__ Change the contact email. Remove the [Securitytxt](https://securitytxt.org/) link if you don’t have any. --->
 
 Keeping our customers' data protected at all times is our highest priority. This security overview provides a high-level overview of the security practices put in place to achieve that objective.
-Have questions or feedback? Feel free to reach out to us at [security@DOMAIN](mailto:security@DOMAIN)
-
-Our security.txt can be accessed [here](DOMAIN/security.txt).
+Have questions or feedback? Feel free to reach out through your sales rep or account manager.
 
 ## Dedicated Security Team
 
@@ -17,7 +15,8 @@ Our security.txt can be accessed [here](DOMAIN/security.txt).
 
 <!--- __Customization:__ Minor customization required. --->
 
-Our security team is comprised of security experts dedicated to improving the security of our organization. Our employees are trained on security incident response and are on call 24/7.
+Our security team is comprised of both senior leadership and developers all dedicated to improving the security of our organization. Our team have been trained in security through real world experience, courses and training. 
+Our employees are trained on security incident response and are on call 24/7.
 
 ## Infrastructure
 
@@ -27,28 +26,22 @@ Our security team is comprised of security experts dedicated to improving the se
 
 <!--- __Customization:__ Add the sub-section(s) that fits your company. --->
 
-### Cloud infrastructure
-
 <!--- __Explanation:__ Use this section if your company’s infrastructure is based on a cloud provider. --->
 
 <!--- __Customization:__ Minor customization. Choose your cloud provider. Delete irrelevant names and links. --->
 
 All of our services run in the cloud. We don’t host or run our own routers, load balancers, DNS servers, or physical servers.
-Our service is built on [Amazon Web Services | Google Cloud Platform | Microsoft Azure | Heroku |…]. They provide strong security measures to protect our infrastructure and are compliant with most certifications. You can read more about their practices here:
+Our service is built on Amazon Web Services, Google Cloud Platform, Microsoft Azure and RackSpace. They provide strong security measures to protect our infrastructure and are compliant with most certifications. You can read more about their practices here:
 - [AWS](https://aws.amazon.com/security/)
 - [Google Cloud Platform](https://cloud.google.com/security/)
 - [Microsoft Azure](https://www.microsoft.com/en-us/trustcenter/security)
-- [Heroku](https://www.heroku.com/policy/security)
+- [Rackspace](https://www.rackspace.com/en-gb/compliance)
 
-### Data center security
+If you would like to understand more about our infrastructure can view a system architecture diagram [here](/data/orlo_architecture_diagram.pdf).
 
-<!--- __Explanation:__ Use this section if you use a physical data center to store and process your data. --->
+We carry out regular audits inline with the company audit plan against all of our sub processors, if you would like to review this you can see it here: [View List](/files/orlo_subprocessors.pdf)
 
-<!--- __Customization:__ Very customizable - You should detail the security efforts in your data center. Important points to mention are: locations (countries), [The data center tiers or certifications](https://en.wikipedia.org/wiki/Data_center#Data_center_levels_and_tiers), how the machines are separated from other data center customers, security controls (guards, power supply, etc.) --->
-
-Our data center is located in the United States. It is a Tier IV, PCI DSS, and ISO 27001 compliant facility.
-Our servers are physically separated from other data center customers.
-The data center facilities are protected 24/7 with different security measures (guards, CCTV, electronic access control, etc.). Monitoring and alerting is in place for security breaches, power, HVAC, and temperature.
+We host all of our data in UK and EU data zones to comply with GDPR.
 
 ## Network level security monitoring and protection
 
@@ -59,10 +52,12 @@ The data center facilities are protected 24/7 with different security measures (
 <!--- __Customization:__ Medium customization. Delete the best practices you’re not following. --->
 
 Our network security architecture consists of multiple security zones. We monitor and protect our network, to make sure no unauthorized access is performed using:
-- A virtual private cloud (VPC), a bastion host or VPN with network access control lists (ACL’s) and no public IP addresses.
+- A virtual private cloud (VPC), a bastion host and no public IP addresses.
 - A firewall that monitors and controls incoming and outgoing network traffic.
 - An Intrusion Detection and/or Prevention technologies (IDS/IPS) solution that monitors and blocks potential malicious packets.
 - IP address filtering
+- Port scanners to monitor open ports and changes
+- We use Nagios to monitor our servers and alert us to any unexpected changes or anomalies
 
 ## DDoS protection
 
@@ -72,7 +67,9 @@ Our network security architecture consists of multiple security zones. We monito
 
 <!--- __Customization:__ No customization. You can name your provider. Delete section if no DDoS protection is in place. --->
 
-We use Distributed Denial of Service (DDoS) mitigation services powered by an industry-leading solution.
+We use Distributed Denial of Service (DDoS) mitigation services powered by an industry-leading solution. You can read more about them here and there security: 
+- [CloudFlare](https://www.cloudflare.com/en-gb/security/)
+- [AWS Sheild](https://aws.amazon.com/shield/)
 
 ## Data encryption
 
@@ -82,8 +79,11 @@ We use Distributed Denial of Service (DDoS) mitigation services powered by an in
 
 <!--- __Customization:__ You could add more information on your encryption strategy (e.g. algorithm used), but it’s not required. --->
 
-Encryption in transit: All data sent to or from our infrastructure is encrypted in transit via industry best-practices using Transport Layer Security (TLS). You can see our SSLLabs report [here](https://www.ssllabs.com/ssltest/analyze.html?d=DOMAIN)
-Encryption at rest: All our user data (including passwords) is encrypted using battled-proofed encryption algorithms in the database.
+Encryption in transit: All data sent to, from or between our infrastructure is encrypted in transit via industry best-practices using Transport Layer Security (TLS). 
+All our assets such as HTML, CSS and the likes are served over encrypted (TLS 1.1 and 1.2) which are rated "A" by sssllabs, you can see the report here here: https://goo.gl/36EK48. 
+When using our web or mobile application all data is encrypted during transit to and from our servers (TLS 1.1 and 1.2) you which is graded "A" by sssllabs, you can see the report here here: https://goo.gl/ZujYmH
+
+Password encryption: All passwords are encrypted using battled-proofed encryption algorithms in the database.
 
 ## Data retention and removal
 
@@ -93,9 +93,9 @@ Encryption at rest: All our user data (including passwords) is encrypted using b
 
 <!--- __Customization:__ Highly customizable. Adapt the section to reflect your practices and define “usage data” (it could be events, logs etc.). Link to your privacy page. --->
 
-We retain your usage data for a period of 90 days after your trial. All data is then completely removed from the dashboard and server.
-Every user can request the removal of usage data by contacting support.
-Read more about our privacy settings at [DOMAIN/privacy](DOMAIN/privacy).
+We retain your data for as long as you have a active contract with us after which we will delete your all your data. Your data will be removed from our various backups 2 weeks after deletion. 
+Every user can request the removal of usage data by contacting [support@orlo.tech](mailto:support@orlo.tech)
+Read more about our privacy settings at [orlo.tech/privacy-policy/](https://orlo.tech/privacy-policy/).
 
 
 ## Business continuity and disaster recovery
@@ -106,8 +106,12 @@ Read more about our privacy settings at [DOMAIN/privacy](DOMAIN/privacy).
 
 <!--- __Customization:__ No customization. --->
 
-We back up all our critical assets and regularly attempt to restore the backup to guarantee a fast recovery in case of disaster. All our backups are encrypted.
+We back up all our critical assets to separate servers using encryption in transit. 
+We manually document and audit the backups weekly through our audit plan to ensure they are valid and working and annually attempt to restore our entire system including the backups fully to guarantee a fast recovery in case of disaster. 
 
+Orlo holds and reviews regularly a business continuity policy and disaster recovery plan in case of a disaster to ensure minimal disruption for our customers. We also review all social networks for up and coming changes as part of our audit plan to ensure our customers are not left behind or without service due to changes.
+
+If you would like to understand more about our uptime you can view it on our [status page](https://orlo.statuspage.io/uptime) where we also monitor upstream providers. 
 
 ## Application security monitoring
 
@@ -117,10 +121,13 @@ We back up all our critical assets and regularly attempt to restore the backup t
 
 <!--- __Customization:__ Medium customization. Delete the tools you’re not using. --->
 
-- We use a security monitoring solution to get visibility into our application security, identify attacks and respond quickly to a data breach.
 - We use technologies to monitor exceptions, logs and detect anomalies in our applications.
 - We collect and store logs to provide an audit trail of our applications activity.
-- We use monitoring such as open tracing in our microservices.
+- Our audit plan covers security checks
+- Our servers automatically run and update antivirus scanners
+- 
+
+We have procedures in place to to triage and remedy reported bugs and security vulnerabilities for product and service offering.
 
 ## Application security protection
 
@@ -130,9 +137,10 @@ We back up all our critical assets and regularly attempt to restore the backup t
 
 <!--- __Customization:__ Medium customization. Delete the tools you’re not using. --->
 
-- We use a runtime protection system that identifies and blocks OWASP Top 10 and business logic attacks in real-time.
-- We use security headers to protect our users from attacks. You can check our grade on [this security scanner](https://www.sqreen.com/scan?url=https%3A%2F%2FDOMAIN).
-- We use security automation capabilities that automatically detect and respond to threats targeting our apps.
+- We do not deploy or need installed any applications on your systems. Orlo runs entirely through the browser and support Internet Explorer 11+, Chrome, Firefox 
+- We use security headers to protect our users from attacks. You can check our grade on [this security scanner](https://www.sqreen.com/scan?url=https://app.socialsignin.co.uk).
+- We use security automation capabilities that automatically detect and respond to threats targeting our apps and check vulnerabilities in our dependencies. 
+
 
 ## Secure development
 
@@ -142,13 +150,14 @@ We back up all our critical assets and regularly attempt to restore the backup t
 
 <!--- __Customization:__ Delete the tools you don’t use. --->
 
-We develop following security best practices and frameworks (OWASP Top 10, SANS Top 25). We use the following best practices to ensure the highest level of security in our software:
+We use the following best practices to ensure the highest level of security in our software:
 - Developers participate in regular security training to learn about common vulnerabilities and threats
-- We review our code for security vulnerabilities
-- We regularly update our dependencies and make sure none of them has known vulnerabilities
-- We use Static Application Security Testing (SAST) to detect basic security vulnerabilities in our codebase
-- We use Dynamic Application Security Testing (DAST) to scan our applications
-- We rely on [yearly | bi-annually | quarterly] third-party security experts to perform penetration tests of our applications.
+- All code is committed and tracked to individuals
+- We do not use live data for testing or on local development environments
+- We review our code for security vulnerabilities and validate all inputs to maintain integrity of data
+- We regularly update our dependencies and make sure none of them has known vulnerabilities automatically through every deployment
+- We use Static Application Security Testing (SAST) to detect basic security vulnerabilities in our codebase automatically in every deployment
+- We rely on yearly third-party CREST accredited security experts to perform penetration tests of our applications. We fix all critical, high risks found immediately and medium and low risks are scheduled in to the road map respectively. 
 
 ## Responsible disclosure
 
@@ -158,19 +167,9 @@ We develop following security best practices and frameworks (OWASP Top 10, SANS 
 
 <!--- __Customization:__ Low customizations. Adapt the coverage and exclusions, and add the proper contact email or [keybase](https://keybase.io/). Using a hosted public bug bounty program on HackerOne or BugCrowd? Just replace the content of this section with a link to your profile. --->
 
-We encourage everyone that practices responsible disclosure and comply with our policies and terms of service to participate in our bug bounty program.
-Please avoid automated testing and only perform security testing with your own data. Please do not disclose any information regarding the vulnerabilities until we fix them. Rewards are done at our discretion depending on the criticality of the vulnerability reported.
+Please avoid automated testing and only perform security testing with your own data. Please do not disclose any information regarding the vulnerabilities until we fix them. 
 
-You can report vulnerabilities by contacting [security@DOMAIN](mailto:security@DOMAIN). Please include a proof of concept. We will respond as quickly as possible to your submission and won’t take legal actions if you follow the rules.
-
-**Coverage**
-- *.DOMAIN
-
-**Exclusions**
-- blog.DOMAIN
-- docs.DOMAIN
-- status.DOMAIN
-- support.DOMAIN
+You can report vulnerabilities by contacting [support@orlo.tech](mailto:support@orlo.tech). Please include a proof of concept. We will respond as quickly as possible to your submission.
 
 **Accepted vulnerabilities are the following:**
 - Cross-Site Scripting (XSS)
@@ -181,7 +180,7 @@ You can report vulnerabilities by contacting [security@DOMAIN](mailto:security@D
 - Code execution
 - Code or database injections
 
-**This bug bounty program does NOT include:**
+**This does NOT include:**
 - Logout CSRF
 - Account/email enumerations
 - Denial of Service (DoS)
@@ -208,20 +207,20 @@ You can report vulnerabilities by contacting [security@DOMAIN](mailto:security@D
 
 **2-factor authentication**
 
-We provide a 2-factor authentication mechanism to protect our users from account takeover attacks. Setting up this extra security measure is optional but highly recommended to increase the security of sensitive data.
+We provide a 2-factor authentication mechanism, minimum password complexity and SSO to protect our users from account takeover attacks. Setting up this extra security measure is optional but highly recommended to increase the security of sensitive data.
 
 **Account takeover protection**
 
-We protect our users against data breaches by monitoring and blocking brute force attacks.
+We protect our users against data breaches by monitoring and blocking brute force attacks. You also have the ability to logout remotely any session if a device has gone missing or otherwise.
 
 **Single sign-on**
 
-Single sign-on (SSO) is offered for our enterprise customers.
+Single sign-on (SSO) SAML is offered for our enterprise customers.
 Single sign-on (SSO) is available using your Google account.
 
 **Role-based access control**
 
-Role-based access control (RBAC) is offered on all our accounts and allows our users to define roles and permissions.
+Role-based access control (RBAC) is offered on all our accounts and allows our users to define roles and permissions. You can read more about this in our documentation here: [Support Portal](http://support.orlo.tech/support/solutions/articles/36000072166-user-settings-and-permissions)
 
 ## Compliance
 <!--- __Recommended for:__ >Series A/Series B startups or earlier if you handle medical/financial data or have enterprise customers.  --->
@@ -230,41 +229,17 @@ Role-based access control (RBAC) is offered on all our accounts and allows our u
 
 <!--- __Customization:__ Very customizable. Choose the elements you’re compliant to. Do not hesitate to link to other pages or resources that detail more your compliance.  --->
 
-**HIPAA**
-
-- Our company is compliant with the Health Insurance Portability and Accountability Act of 1996 (HIPAA). We protect the privacy and security of your protected health information (PHI) in accordance with the very strict requirements of [HIPAA](https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html),
-- Our company offers HIPAA BAA agreements to enterprise companies that need to comply with HIPAA regulations.
-
-**SOC2**
-
-Our company is [SOC 2 Type [1 | 2]](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html) certified, which means that an independent auditor has evaluated our product, infrastructure, and policies, and certifies that we meet or exceed specific levels of controls and processes for the security of user data.
-
-**EU-U.S. and Swiss-U.S. Privacy Shield**
-
-Our company conforms with the EU-U.S. and Swiss-U.S. Privacy Shield Frameworks for regulating data privacy between the European Union and the United States.
-
 **PCI Compliance**
 
-We process and store your payment information in accordance with the Payment Card Industry Data Security Standards ([PCI DSS](https://www.pcisecuritystandards.org/)). We have been audited by an independent PCI Qualified Security Assessor (QSA) and are certified as a PCI Service Provider.
-
-**ISO 27001**
-
-Our company is [ISO/IEC 27001](https://en.wikipedia.org/wiki/ISO/IEC_27001) certified. This standard provides a framework for establishing, and maintaining an information security management system (ISMS) to secure sensitive information through a risk management process that combines IT systems, people and processes.
+We do not process any payment information and hence we do not need PCI compliance
 
 **GDPR**
 
-We’re compliant to the General Data Protection Regulation (GDPR). The purpose of GDPR is to protect the private information of EU citizens and give them more control over their personal data. Contact us for more details on how we comply to GDPR.
+We’re compliant to the General Data Protection Regulation (GDPR). The purpose of GDPR is to protect the private information of EU citizens and give them more control over their personal data. Please see our [privacy policy](https://orlo.tech/privacy-policy/) for more information.
 
-## Payment information
+We engage with privacy by design and work closely with the social networks and legal teams to make sure that we’re doing our utmost to make sure that we do not unfairly use data collected and that it is used only for the purpose of providing you (the customer) our service. 
+You can find out more from our [GDPR Readiness FAQs](/files/orlo_gdpr_faqs.pdf)
 
-<!--- __Recommended for:__ All companies accepting payments. --->
-
-<!--- __Explanation:__ Add this section to your overview to state your security practices regarding payment processing and storage. If you use a third-party to handle payments mention it and state that you are therefore not subject to PCI compliance. If you process payments yourself, keep the part on PCI compliance. --->
-
-<!--- __Customization:__ Delete the paragraph that isn’t relevant to your company. Choose or add your payment provider. --->
-
-- All payment instrument processing is safely outsourced to [Stripe | Braintree] which is certified as a PCI Level 1 Service Provider. We don’t collect any payment information and are therefore not subject to PCI obligations.
-- We safely process and store your payment information following the strict Payment Card Industry Data Security Standards (PCI DSS). We are certified as a PCI Service Provider.
 
 ## Employee access
 
@@ -274,5 +249,6 @@ We’re compliant to the General Data Protection Regulation (GDPR). The purpose 
 
 <!--- __Customization:__ This section should be customized to reflect your internal practices. --->
 
-- Our strict internal procedure prevents any employee or administrator from gaining access to user data. Limited exceptions can be made for customer support.
-- All our employees sign a Non-Disclosure and Confidentiality Agreement when joining the company to protect our customers' sensitive information.
+- Our strict internal procedure prevents unnecessary employees or administrator from gaining access to user data. Limited exceptions can be made for customer support.
+- All employees with access to live data has been vetted and DBS checked
+- All our employees have Non-Disclosure and Confidentiality Agreements in there contract to protect our customers' sensitive information. We also maintain good on boarding and off boarding practices

@@ -12,11 +12,11 @@ body, html {
 }
 
 .security-header {
-  background: linear-gradient(to bottom, #ffffff, #f7f7f7);
+  background: url("/img/banner.png") no-repeat right;
   text-align: center;
 
   .wrapper {
-    padding: 162px 20px 76px;
+    padding: 162px 20px 46px;
     max-width: 1040px;
     margin: 0 auto;
     position: relative;
@@ -26,6 +26,7 @@ body, html {
     position: absolute;
     left: 20px;
     top: 30px;
+    display: none;
   }
 
   h1 {
@@ -34,8 +35,9 @@ body, html {
     font-style: normal;
     font-stretch: normal;
     line-height: 1.17;
-    color: #4c4c4c;
+    color: #ddd;
     margin-bottom: 12px;
+    padding-top: 40px;
   }
 
   .subtitle {
@@ -45,7 +47,7 @@ body, html {
     font-stretch: normal;
     line-height: 1.47;
     text-align: center;
-    color: #8f8f8f;
+    color: #afafaf;
     width: 100%;
     max-width: 550px;
     margin: 0 auto;

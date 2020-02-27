@@ -41,6 +41,12 @@ If you would like to understand more about our infrastructure can view a system 
 
 We carry out regular audits inline with the company audit plan against all of our sub processors, if you would like to review this you can see it here: [View List](/files/orlo_subprocessors.pdf)
 
+**On-site Security**
+
+The above cloud providers on-site security includes a number of features such as security guards, fencing, security feeds, intrusion detection technology, and other security measures. [Learn more about AWS physical security](https://aws.amazon.com/compliance/data-center/perimeter-layer/)
+
+**Data hosting**
+
 We host all of our data in UK and EU data zones to comply with GDPR.
 
 ## Network level security monitoring and protection
@@ -106,12 +112,27 @@ Read more about our privacy settings at [orlo.tech/privacy-policy/](https://orlo
 
 <!--- __Customization:__ No customization. --->
 
+**Uptime**
+
+Orlo maintains a publicly available [system-status webpage](https://orlo.statuspage.io/uptime) which includes system availability details, scheduled maintenance, service incident history, and relevant security events. 
+We also monitor all our upstream providers which can be found here as well. 
+
+
+**Backups**
+
 We back up all our critical assets to separate servers using encryption in transit. 
 We manually document and audit the backups weekly through our audit plan to ensure they are valid and working and annually attempt to restore our entire system including the backups fully to guarantee a fast recovery in case of disaster. 
 
-Orlo holds and reviews regularly a business continuity policy and disaster recovery plan in case of a disaster to ensure minimal disruption for our customers. We also review all social networks for up and coming changes as part of our audit plan to ensure our customers are not left behind or without service due to changes.
+**Disaster Recovery**
 
-If you would like to understand more about our uptime you can view it on our [status page](https://orlo.statuspage.io/uptime) where we also monitor upstream providers. 
+Orlo holds and reviews regularly a business continuity policy and disaster recovery plan in case of a disaster to ensure minimal disruption for our customers. This is tested fully yearly and updated on changes to infrastructure.
+We also review all social networks for up and coming changes as part of our audit plan to ensure our customers are not left behind or without service due to changes.
+ 
+**Redundancy**
+
+Orlo maintains highly available databases where possible mean that if a server was to go offline our service would continue with no interruption of no data loss.
+Where we're not able to put inplace highly available databses we have hot slaves databases ready to go in case of server failure. 
+All our networks are highly available (provided by cloud providers) and API servers are auto scaling
 
 ## Application security monitoring
 
@@ -197,7 +218,7 @@ You can report vulnerabilities by contacting [support@orlo.tech](mailto:support@
 - Vulnerabilities requiring exceedingly unlikely user interaction
 - Exploits that require physical access to a user's machine
 
-## User protection
+## User protection and product security features
 
 <!--- __Recommended for:__ >Series A/Series B startups or earlier if you handle medical/financial data or have enterprise customers.  --->
 

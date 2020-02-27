@@ -60,7 +60,7 @@ body, html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
 .security-header {
-  background: url("/img/banner.png") no-repeat right;
+  background: url("img/banner.png") no-repeat right;
   text-align: center; }
   .security-header .wrapper {
     padding: 162px 20px 46px;

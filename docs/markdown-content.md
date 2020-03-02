@@ -37,9 +37,9 @@ Our service is built on Amazon Web Services, Google Cloud Platform, Microsoft Az
 - [Microsoft Azure](https://www.microsoft.com/en-us/trustcenter/security)
 - [Rackspace](https://www.rackspace.com/en-gb/compliance)
 
-If you would like to understand more about our infrastructure can view a system architecture diagram [here](/data/orlo_architecture_diagram.pdf).
+If you would like to understand more about our infrastructure can view a system architecture diagram [here](files/orlo_architecture_diagram.pdf).
 
-We carry out regular audits inline with the company audit plan against all of our sub processors, if you would like to review this you can see it here: [View List](/files/orlo_subprocessors.pdf)
+We carry out regular audits inline with the company audit plan against all of our sub processors, if you would like to review this you can see it here: [View List](files/orlo_subprocessors.pdf)
 
 **On-site Security**
 
@@ -259,7 +259,7 @@ We do not process any payment information and hence we do not need PCI complianc
 We’re compliant to the General Data Protection Regulation (GDPR). The purpose of GDPR is to protect the private information of EU citizens and give them more control over their personal data. Please see our [privacy policy](https://orlo.tech/privacy-policy/) for more information.
 
 We engage with privacy by design and work closely with the social networks and legal teams to make sure that we’re doing our utmost to make sure that we do not unfairly use data collected and that it is used only for the purpose of providing you (the customer) our service. 
-You can find out more from our [GDPR Readiness FAQs](/files/orlo_gdpr_faqs.pdf)
+You can find out more from our [GDPR Readiness FAQs](files/orlo_gdpr_faqs.pdf)
 
 
 ## Employee access

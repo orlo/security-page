@@ -1,21 +1,39 @@
 // Security page
 //========================================
 $(function() {
-  $.get('./markdown-content.md', function(data) {
+
+  var markdownFile = "./" + (location.search == "" ? "index" : location.search.replace("?", "")) + ".md";
+  $.get(markdownFile, function (data) {
     $('.right').append(marked(data));
-    $(document.getElementsByTagName('h2')).each(function() {
-      $('.table-of-contents ul').append("<li><a class='link' href='#"+$(this)[0].id+"'>"+$(this)[0].innerText+"</a></li>");
+
+    //do the h1 tag at the top
+    $(".right").find("h1:first").each(function () {
+      var title = $(this)[0].innerText;
+      document.title = title;
+      $(".security-header h1")[0].innerText = title;
+      $(this).remove();
+    });
+
+    //do the subtitle at the top
+    $(".right").find("p:first").each(function () {
+      $(".security-header p.subtitle")[0].innerText = $(this)[0].innerText;
+      $(this).remove();
+    });
+
+
+    $(document.getElementsByTagName('h2')).each(function () {
+      $('.table-of-contents ul.nav').append("<li><a class='link' href='#" + $(this)[0].id + "'>" + $(this)[0].innerText + "</a></li>");
     });
     createPage();
-  })
+  });
 
   function createPage () {
     // Variables declarations
     //========================================
     var lastId,
-        topMenu         = $('.table-of-contents ul'),
-        menuFixedTop    = 100,
-        topMenuHeight   = 423;
+        topMenu         = $('.table-of-contents ul.nav'),
+        menuFixedTop    = 0,
+        topMenuHeight   = 0;
 
     // Map links in nav
     //========================================

@@ -1,3 +1,6 @@
+# Orlo Security & Compliance
+Our customers range from SMB to enterprise organisations such as banks, government departments and police forces, all of which trust us with their data. Keeping our customers' data safe is our priority.
+
 ## Overview
 
 <!--- __Explanation:__ This section gives a quick introduction to your security overview. It provides with contact details and a link to your security.txt if you have any. --->

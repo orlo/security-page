@@ -65,4 +65,5 @@ gulp.task('default', ['serve', 'build'], function() {
   gulp.watch('docs/scss/**/*.scss', ['styles']);
   gulp.watch('docs/*.html', browserSync.reload);
   gulp.watch('docs/js/**/*.js', browserSync.reload);
+  gulp.watch('docs/*.md', browserSync.reload);
 });

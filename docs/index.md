@@ -1,6 +1,9 @@
 # Orlo Security & Compliance
 Our customers range from SMB to enterprise organisations such as banks, government departments and police forces, all of which trust us with their data. Keeping our customers' data safe is our priority.
 
+
+
+
 ## Overview
 
 <!--- __Explanation:__ This section gives a quick introduction to your security overview. It provides with contact details and a link to your security.txt if you have any. --->
@@ -42,7 +45,7 @@ Our service is built on Amazon Web Services, Google Cloud Platform, Microsoft Az
 
 If you would like to understand more about our infrastructure can view a system architecture diagram [here](files/orlo_architecture_diagram.pdf).
 
-We carry out regular audits inline with the company audit plan against all of our sub processors, if you would like to review this you can see it here: [View List](files/orlo_subprocessors.pdf)
+We carry out regular audits inline with the company audit plan against all of our sub processors, if you would like to review this you can see it here: [View List](./index.html?sub-processors)
 
 **On-site Security**
 
@@ -50,7 +53,8 @@ The above cloud providers on-site security includes a number of features such as
 
 **Data hosting**
 
-We host all of our data in UK and EU data zones to comply with GDPR.
+We host all of our data in UK and EU data zones to comply with GDPR, if you would like to read more about data privacy 
+and protection please see our [Privacy and Data Protection](./index.html?privacy_and_data_protection) resource.
 
 ## Network level security monitoring and protection
 
@@ -102,8 +106,12 @@ Password encryption: All passwords are encrypted using battled-proofed encryptio
 
 <!--- __Customization:__ Highly customizable. Adapt the section to reflect your practices and define “usage data” (it could be events, logs etc.). Link to your privacy page. --->
 
-We retain your data for as long as you have a active contract with us after which we will delete your all your data. Your data will be removed from our various backups 2 weeks after deletion. 
-Every user can request the removal of usage data by contacting [support@orlo.tech](mailto:support@orlo.tech)
+We retain your data for as long as you have a active contract with us after which we will delete your all your data. 
+Your data will be removed from our various backups 4 weeks after deletion.
+
+If you would like to ready more about data privacy and protection please see our [resource here](./index.html?privacy_and_data_protection#what-happens-to-our-data-at-the-end-of-the-contract-)
+
+Admins can request the removal of usage data by contacting [support@orlo.tech](mailto:support@orlo.tech)
 Read more about our privacy settings at [orlo.tech/privacy-policy/](https://orlo.tech/privacy-policy/).
 
 

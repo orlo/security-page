@@ -68,7 +68,11 @@ This may change in the future but, if so, external developers would be given onl
 no access to live data and all code/contributions would be vetted before been deployed. 
 
 If you would like to read more about where your data will be processed please see more information about our 
-infrastructure (here)[./index.html#infrastructure]
+infrastructure [here](./index.html#infrastructure)
+
+We carry out regular audits inline with the company audit plan against all of our sub processors, 
+if you would like to review this you can see it here: [View List](./index.html?sub-processors)
+
 
 ## What does Orlo do to protect login credentials?
 We offer a number of login options: 

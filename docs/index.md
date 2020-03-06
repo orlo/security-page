@@ -270,7 +270,7 @@ We do not process any payment information and hence we do not need PCI complianc
 We’re compliant to the General Data Protection Regulation (GDPR). The purpose of GDPR is to protect the private information of EU citizens and give them more control over their personal data. Please see our [privacy policy](https://orlo.tech/privacy-policy/) for more information.
 
 We engage with privacy by design and work closely with the social networks and legal teams to make sure that we’re doing our utmost to make sure that we do not unfairly use data collected and that it is used only for the purpose of providing you (the customer) our service. 
-You can find out more from our [GDPR Readiness FAQs](files/orlo_gdpr_faqs.pdf)
+You can find out more from our [Privacy and Data Protection Page](./index.html?privacy_and_data_protection)
 
 
 ## Employee access

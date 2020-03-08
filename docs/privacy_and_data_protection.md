@@ -133,7 +133,7 @@ and infrastructure please see our public [Security & Compliance Page](./index.ht
 
 ### As a data processor, how do we handle request made by End-Users?
 
-If Zendesk receives a data subject request from a Subscriber’s End-User (i.e., a user of the Services to whom a 
+If Orlo receives a data subject request from a Subscriber’s End-User (i.e., a user of the Services to whom a 
 Subscriber has provided our Services), Orlo is the Processor, and Orlo will, to the extent that applicable legislation 
 does not prohibit Orlo from doing so, promptly inform the End-User to contact our Subscriber (i.e. the Controller) 
 directly about any request relating to his/her Personal Data such as access or deletion. 

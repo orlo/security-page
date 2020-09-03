@@ -49,7 +49,9 @@ We carry out regular audits inline with the company audit plan against all of ou
 
 **On-site Security**
 
-The above cloud providers on-site security includes a number of features such as security guards, fencing, security feeds, intrusion detection technology, and other security measures. [Learn more about AWS physical security](https://aws.amazon.com/compliance/data-center/perimeter-layer/)
+The above cloud providers on-site security includes a number of features such as security guards, fencing, security feeds, intrusion detection technology, and other security measures. [Learn more about AWS physical security](https://aws.amazon.com/compliance/data-center/perimeter-layer/) and [controls](https://aws.amazon.com/compliance/data-center/controls/)
+
+Orlo's offices require card access which is logged and the building requires a seperate pass and is manned 24hrs a day. No platform data is stored on site. 
 
 **Data hosting**
 

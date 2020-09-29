@@ -262,6 +262,10 @@ Role-based access control (RBAC) is offered on all our accounts and allows our u
 
 <!--- __Customization:__ Very customizable. Choose the elements you’re compliant to. Do not hesitate to link to other pages or resources that detail more your compliance.  --->
 
+**Cyber Essentials**
+
+We are Cyber Essentials accredited, you can download our current certificate from here:  [Cyber Essentials Certificate](files/cyber_essentials.pdf)
+
 **PCI Compliance**
 
 We do not process any payment information and hence we do not need PCI compliance
@@ -282,6 +286,6 @@ You can find out more from our [Privacy and Data Protection Page](./index.html?p
 
 <!--- __Customization:__ This section should be customized to reflect your internal practices. --->
 
-- Our strict internal procedure prevents unnecessary employees or administrator from gaining access to user data. Limited exceptions can be made for customer support.
-- All employees with access to live data has been vetted and DBS checked
+- Our strict internal procedure prevents unnecessary employees or administrators from gaining access to your data.
+- All employees with access to live/private data has been vetted and DBS checked and Non Police Personal Vetting Level 2 (NPPV level 2) standard.
 - All our employees have Non-Disclosure and Confidentiality Agreements in there contract to protect our customers' sensitive information. We also maintain good on boarding and off boarding practices

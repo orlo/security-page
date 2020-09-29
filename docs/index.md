@@ -21,7 +21,7 @@ Have questions or feedback? Feel free to reach out through your sales rep or acc
 
 <!--- __Customization:__ Minor customization required. --->
 
-Our security team is comprised of both senior leadership and developers all dedicated to improving the security of our organization. Our team have been trained in security through real world experience, courses and training. 
+Our security team is comprised of both senior leadership and developers all dedicated to improving the security of our organization. Our team have been trained in security through real world experience, courses and training.
 Our employees are trained on security incident response and are on call 24/7.
 
 ## Infrastructure
@@ -37,11 +37,10 @@ Our employees are trained on security incident response and are on call 24/7.
 <!--- __Customization:__ Minor customization. Choose your cloud provider. Delete irrelevant names and links. --->
 
 All of our services run in the cloud. We don’t host or run our own routers, load balancers, DNS servers, or physical servers.
-Our service is built on Amazon Web Services, Google Cloud Platform, Microsoft Azure and RackSpace. They provide strong security measures to protect our infrastructure and are compliant with most certifications. You can read more about their practices here:
+Our service is built on Amazon Web Services, Google Cloud Platform and Microsoft Azure. They provide strong security measures to protect our infrastructure and are compliant with most certifications. You can read more about their practices here:
 - [AWS](https://aws.amazon.com/security/)
 - [Google Cloud Platform](https://cloud.google.com/security/)
 - [Microsoft Azure](https://www.microsoft.com/en-us/trustcenter/security)
-- [Rackspace](https://www.rackspace.com/en-gb/compliance)
 
 If you would like to understand more about our infrastructure can view a system architecture diagram [here](files/orlo_architecture_diagram.pdf).
 
@@ -51,11 +50,11 @@ We carry out regular audits inline with the company audit plan against all of ou
 
 The above cloud providers on-site security includes a number of features such as security guards, fencing, security feeds, intrusion detection technology, and other security measures. [Learn more about AWS physical security](https://aws.amazon.com/compliance/data-center/perimeter-layer/) and [controls](https://aws.amazon.com/compliance/data-center/controls/)
 
-Orlo's offices require card access which is logged and the building requires a seperate pass and is manned 24hrs a day. No platform data is stored on site. 
+Orlo's offices require card access which is logged and the building requires a seperate pass and is manned 24hrs a day. No platform data is stored on site.
 
 **Data hosting**
 
-We host all of our data in UK and EU data zones to comply with GDPR, if you would like to read more about data privacy 
+We host all of our data in UK and EU data zones to comply with GDPR, if you would like to read more about data privacy
 and protection please see our [Privacy and Data Protection](./index.html?privacy_and_data_protection) resource.
 
 ## Network level security monitoring and protection
@@ -82,7 +81,7 @@ Our network security architecture consists of multiple security zones. We monito
 
 <!--- __Customization:__ No customization. You can name your provider. Delete section if no DDoS protection is in place. --->
 
-We use Distributed Denial of Service (DDoS) mitigation services powered by an industry-leading solution. You can read more about them here and there security: 
+We use Distributed Denial of Service (DDoS) mitigation services powered by an industry-leading solution. You can read more about them here and there security:
 - [CloudFlare](https://www.cloudflare.com/en-gb/security/)
 - [AWS Sheild](https://aws.amazon.com/shield/)
 
@@ -94,8 +93,8 @@ We use Distributed Denial of Service (DDoS) mitigation services powered by an in
 
 <!--- __Customization:__ You could add more information on your encryption strategy (e.g. algorithm used), but it’s not required. --->
 
-Encryption in transit: All data sent to, from or between our infrastructure is encrypted in transit via industry best-practices using Transport Layer Security (TLS). 
-All our assets such as HTML, CSS and the likes are served over encrypted (TLS 1.1 and 1.2) which are rated "A" by sssllabs, you can see the report here here: https://goo.gl/36EK48. 
+Encryption in transit: All data sent to, from or between our infrastructure is encrypted in transit via industry best-practices using Transport Layer Security (TLS).
+All our assets such as HTML, CSS and the likes are served over encrypted (TLS 1.1 and 1.2) which are rated "A" by sssllabs, you can see the report here here: https://goo.gl/36EK48.
 When using our web or mobile application all data is encrypted during transit to and from our servers (TLS 1.1 and 1.2) you which is graded "A" by sssllabs, you can see the report here here: https://goo.gl/ZujYmH
 
 Password encryption: All passwords are encrypted using battled-proofed encryption algorithms in the database.
@@ -108,7 +107,7 @@ Password encryption: All passwords are encrypted using battled-proofed encryptio
 
 <!--- __Customization:__ Highly customizable. Adapt the section to reflect your practices and define “usage data” (it could be events, logs etc.). Link to your privacy page. --->
 
-We retain your data for as long as you have a active contract with us after which we will delete your all your data. 
+We retain your data for as long as you have a active contract with us after which we will delete your all your data.
 Your data will be removed from our various backups 4 weeks after deletion.
 
 If you would like to ready more about data privacy and protection please see our [resource here](./index.html?privacy_and_data_protection#what-happens-to-our-data-at-the-end-of-the-contract-)
@@ -127,24 +126,24 @@ Read more about our privacy settings at [orlo.tech/privacy-policy/](https://orlo
 
 **Uptime**
 
-Orlo maintains a publicly available [system-status webpage](https://orlo.statuspage.io/uptime) which includes system availability details, scheduled maintenance, service incident history, and relevant security events. 
-We also monitor all our upstream providers which can be found here as well. 
+Orlo maintains a publicly available [system-status webpage](https://orlo.statuspage.io/uptime) which includes system availability details, scheduled maintenance, service incident history, and relevant security events.
+We also monitor all our upstream providers which can be found here as well.
 
 
 **Backups**
 
-We back up all our critical assets to separate servers using encryption in transit. 
-We manually document and audit the backups weekly through our audit plan to ensure they are valid and working and annually attempt to restore our entire system including the backups fully to guarantee a fast recovery in case of disaster. 
+We back up all our critical assets to separate servers using encryption in transit.
+We manually document and audit the backups weekly through our audit plan to ensure they are valid and working and annually attempt to restore our entire system including the backups fully to guarantee a fast recovery in case of disaster.
 
 **Disaster Recovery**
 
 Orlo holds and reviews regularly a business continuity policy and disaster recovery plan in case of a disaster to ensure minimal disruption for our customers. This is tested fully yearly and updated on changes to infrastructure.
 We also review all social networks for up and coming changes as part of our audit plan to ensure our customers are not left behind or without service due to changes.
- 
+
 **Redundancy**
 
 Orlo maintains highly available databases where possible mean that if a server was to go offline our service would continue with no interruption of no data loss.
-Where we're not able to put inplace highly available databses we have hot slaves databases ready to go in case of server failure. 
+Where we're not able to put inplace highly available databses we have hot slaves databases ready to go in case of server failure.
 All our networks are highly available (provided by cloud providers) and API servers are auto scaling
 
 ## Application security monitoring
@@ -159,7 +158,7 @@ All our networks are highly available (provided by cloud providers) and API serv
 - We collect and store logs to provide an audit trail of our applications activity.
 - Our audit plan covers security checks
 - Our servers automatically run and update antivirus scanners
-- 
+-
 
 We have procedures in place to to triage and remedy reported bugs and security vulnerabilities for product and service offering.
 
@@ -171,9 +170,9 @@ We have procedures in place to to triage and remedy reported bugs and security v
 
 <!--- __Customization:__ Medium customization. Delete the tools you’re not using. --->
 
-- We do not deploy or need installed any applications on your systems. Orlo runs entirely through the browser and support Internet Explorer 11+, Chrome, Firefox 
+- We do not deploy or need installed any applications on your systems. Orlo runs entirely through the browser and support Internet Explorer 11+, Chrome, Firefox
 - We use security headers to protect our users from attacks. You can check our grade on [this security scanner](https://www.sqreen.com/scan?url=https://app.socialsignin.co.uk).
-- We use security automation capabilities that automatically detect and respond to threats targeting our apps and check vulnerabilities in our dependencies. 
+- We use security automation capabilities that automatically detect and respond to threats targeting our apps and check vulnerabilities in our dependencies.
 
 
 ## Secure development
@@ -191,7 +190,7 @@ We use the following best practices to ensure the highest level of security in o
 - We review our code for security vulnerabilities and validate all inputs to maintain integrity of data
 - We regularly update our dependencies and make sure none of them has known vulnerabilities automatically through every deployment
 - We use Static Application Security Testing (SAST) to detect basic security vulnerabilities in our codebase automatically in every deployment
-- We rely on yearly third-party CREST accredited security experts to perform penetration tests of our applications. We fix all critical, high risks found immediately and medium and low risks are scheduled in to the road map respectively. 
+- We rely on yearly third-party CREST accredited security experts to perform penetration tests of our applications. We fix all critical, high risks found immediately and medium and low risks are scheduled in to the road map respectively.
 
 ## Responsible disclosure
 
@@ -201,7 +200,7 @@ We use the following best practices to ensure the highest level of security in o
 
 <!--- __Customization:__ Low customizations. Adapt the coverage and exclusions, and add the proper contact email or [keybase](https://keybase.io/). Using a hosted public bug bounty program on HackerOne or BugCrowd? Just replace the content of this section with a link to your profile. --->
 
-Please avoid automated testing and only perform security testing with your own data. Please do not disclose any information regarding the vulnerabilities until we fix them. 
+Please avoid automated testing and only perform security testing with your own data. Please do not disclose any information regarding the vulnerabilities until we fix them.
 
 You can report vulnerabilities by contacting [support@orlo.tech](mailto:support@orlo.tech). Please include a proof of concept. We will respond as quickly as possible to your submission.
 
@@ -271,7 +270,7 @@ We do not process any payment information and hence we do not need PCI complianc
 
 We’re compliant to the General Data Protection Regulation (GDPR). The purpose of GDPR is to protect the private information of EU citizens and give them more control over their personal data. Please see our [privacy policy](https://orlo.tech/privacy-policy/) for more information.
 
-We engage with privacy by design and work closely with the social networks and legal teams to make sure that we’re doing our utmost to make sure that we do not unfairly use data collected and that it is used only for the purpose of providing you (the customer) our service. 
+We engage with privacy by design and work closely with the social networks and legal teams to make sure that we’re doing our utmost to make sure that we do not unfairly use data collected and that it is used only for the purpose of providing you (the customer) our service.
 You can find out more from our [Privacy and Data Protection Page](./index.html?privacy_and_data_protection)
 
 

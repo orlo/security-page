@@ -6,20 +6,20 @@ Our customers range from SMB to enterprise organisations such as banks, governme
 Orlo uses certain sub-processors and content delivery networks to assist it in providing the Orlo's Services.
 
 ## What is a Sub-processor
-A sub-processor is a third party data processor engaged by Orlo, who has or potentially will have access to or process 
-Service Data (which may contain Personal Data). Orlo engages different types of sub-processors to perform various 
+A sub-processor is a third party data processor engaged by Orlo, who has or potentially will have access to or process
+Service Data (which may contain Personal Data). Orlo engages different types of sub-processors to perform various
 functions as explained in the tables below.
 
 ## Due Diligence
-Orlo undertakes to use a commercially reasonable selection process by which it evaluates the security, privacy and 
+Orlo undertakes to use a commercially reasonable selection process by which it evaluates the security, privacy and
 confidentiality practices of proposed sub-processors that will or may have access to or otherwise process Service Data.
 
 
 ## Process to Engage New Sub-processors:
-For all Subscribers who have executed Orlo’s standard DPA, Orlo will provide notice via this policy of updates to the 
-list of sub-processors that are utilized or which Orlo proposes to utilize to deliver its Services. Orlo undertakes to 
-keep this list updated regularly to enable its Subscribers to stay informed of the scope of sub-processing associated 
-with the Orlo's Services. 
+For all Subscribers who have executed Orlo’s standard DPA, Orlo will provide notice via this policy of updates to the
+list of sub-processors that are utilized or which Orlo proposes to utilize to deliver its Services. Orlo undertakes to
+keep this list updated regularly to enable its Subscribers to stay informed of the scope of sub-processing associated
+with the Orlo's Services.
 
 ## List of sub processors
 
@@ -30,7 +30,6 @@ Below you can find a list of all sub processors that are related to your data pr
 |---	|---	|---	|---	|---	|---	|---	|---	|---	|---	|---	|---	|
 |   Google Cloud	|   https://cloud.google.com/	|   Provides a cloud infrastructure to run our SAAS offering	|   01-01-2017	|   High Risk	|   Level 1: Highly sensitive corporate or customer data	|   Yes	|   [Security Page](https://cloud.google.com/security/compliance/offerings)	|   UK	|   Yes	|   Yes	|   CTO	|
 |   AWS	|   https://aws.amazon.com/	|   Provides a cloud infrastructure to run our SAAS offering	|   01-01-2017	|   High Risk	|   Level 1: Highly sensitive corporate or customer data	|   Yes	|   [Security Page](https://aws.amazon.com/compliance/)	|   UK	|   Yes	|   Yes	|   CTO	|
-|   Rackspace	|   https://www.rackspace.com/	|   Provides a cloud infrastructure to run our SAAS offering	|   01-01-2017	|   High Risk	|   Level 1: Highly sensitive corporate or customer data	|   Yes	|   [Security Page](https://www.rackspace.com/en-gb/compliance)	|   UK	|   Yes	|   Yes |   CTO	|
 |   Filestack	|   https://www.filestack.com/	|   Tool used to make uploads from your browser to our servers easy	|   01-01-2015	|   Moderate Risk	|   Level 1: Highly sensitive corporate or customer data	|   Aiming for 2020 completion	|   N/A	|   No	|   Yes	|   No	|   CTO	|
 |   Github	|   https://github.com	|   Store and audit code    |   01-01-2015	|   High Risk	|   Level 2: Sensitive internal data	|   Yes	|   N/A	|   USA	|   Yes	|   Yes	|   CTO	|
 |   Loggly	|   https://www.loggly.com/	|   Centralised logging service	|   01-01-2016	|   Low Risk	|   Level 3: Internal data that is not meant for public disclosure	|   Yes	|   [Security Page](https://www.loggly.com/product/security/)	|   USA	|   Yes	|   No	|   CTO	|

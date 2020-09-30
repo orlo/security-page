@@ -263,6 +263,7 @@ Role-based access control (RBAC) is offered on all our accounts and allows our u
 <!--- __Customization:__ Very customizable. Choose the elements you’re compliant to. Do not hesitate to link to other pages or resources that detail more your compliance.  --->
 
 **ICO Registration**
+
 Orlo is registered on the data protection public register with the [ICO](https://ico.org.uk/ESDWebPages/Entry/ZA181887) under reference number #ZA181887 as SocialSignIn. You can download our latest certificate here: [ICO Certificate](files/orlo_ico_certificate.pdf)
 
 **Cyber Essentials**

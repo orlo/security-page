@@ -292,4 +292,6 @@ You can find out more from our [Privacy and Data Protection Page](./index.html?p
 
 - Our strict internal procedure prevents unnecessary employees or administrators from gaining access to your data.
 - All employees with access to live/private data has been vetted and DBS checked and Non Police Personal Vetting Level 2 (NPPV level 2) standard.
-- All our employees have Non-Disclosure and Confidentiality Agreements in there contract to protect our customers' sensitive information. We also maintain good on boarding and off boarding practices
+- All our employees have Non-Disclosure and Confidentiality Agreements in there contract to protect our customers' sensitive information.
+- All employees in the company carry out security and data classification training.
+- We also maintain good on boarding and off boarding practices as well as a set of policies shared across the company. A policy map can be seen here: [Policy Map](files/orlo_policy_map.pdf)

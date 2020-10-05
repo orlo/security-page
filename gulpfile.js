@@ -58,10 +58,10 @@ gulp.task('img', function() {
   .pipe(gulp.dest('./build/img'));
 });
 
-gulp.task('build', ['html', 'md', 'styles', 'scripts', 'img'])
+gulp.task('build', gulp.series('html', 'md', 'styles', 'scripts', 'img'))
 
 // Run all Gulp tasks and serve application
-gulp.task('default', ['serve', 'build'], function() {
+gulp.task('default', gulp.series('serve', 'build'), function() {
   gulp.watch('docs/scss/**/*.scss', ['styles']);
   gulp.watch('docs/*.html', browserSync.reload);
   gulp.watch('docs/js/**/*.js', browserSync.reload);

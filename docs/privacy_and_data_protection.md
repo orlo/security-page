@@ -94,7 +94,7 @@ they are enhanced.  These include:
 [Application security monitoring](./index.html#application-security-monitoring) - [Network level security monitoring and protection](./index.html#network-level-security-monitoring-and-protection) 
 - Security testing: See more about secure development on our Security & Compliance resource 
 [here](./index.html#secure-development) and you can see our latest results from our penetration test 
-[here](./files/orlo_pentest_2019.pdf)
+[here](./files/orlo_pentest_2020.pdf)
 
 We have some continual end-to-end testing of our server cluster to ensure specific key indicators are working correctly and use software to log and track with a combination of active checks and, for some things, such as back-ups, passive checks.  Our set up allows use to detect unexpected behavior early and team members are alerted if an expected behavior has not executed as expected. 
 

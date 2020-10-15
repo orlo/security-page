@@ -190,7 +190,8 @@ We use the following best practices to ensure the highest level of security in o
 - We review our code for security vulnerabilities and validate all inputs to maintain integrity of data
 - We regularly update our dependencies and make sure none of them has known vulnerabilities automatically through every deployment
 - We use Static Application Security Testing (SAST) to detect basic security vulnerabilities in our codebase automatically in every deployment
-- We rely on yearly third-party CREST accredited security experts to perform penetration tests of our applications. We fix all critical, high risks found immediately and medium and low risks are scheduled in to the road map respectively.
+- We rely on yearly third-party CREST accredited security experts to perform penetration tests of our applications. We fix all critical, high risks found immediately and medium and low risks are scheduled in to the road map respectively. 
+You view our latest penetration test results [here](./files/orlo_pentest_2020.pdf)
 
 ## Responsible disclosure
 

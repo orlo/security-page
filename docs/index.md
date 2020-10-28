@@ -254,7 +254,7 @@ Single sign-on (SSO) is available using your Google account.
 
 **Role-based access control**
 
-Role-based access control (RBAC) is offered on all our accounts and allows our users to define roles and permissions. You can read more about this in our documentation here: [Support Portal](http://support.orlo.tech/support/solutions/articles/36000072166-user-settings-and-permissions)
+Role-based access control (RBAC) is offered on all our accounts and allows our users to define roles and permissions. You can read more about this in our documentation here: [Support Portal](https://support.orlo.tech/user-settings-and-permissions)
 
 ## Compliance
 <!--- __Recommended for:__ >Series A/Series B startups or earlier if you handle medical/financial data or have enterprise customers.  --->

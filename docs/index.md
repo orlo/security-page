@@ -50,7 +50,7 @@ We carry out regular audits inline with the company audit plan against all of ou
 
 The above cloud providers on-site security includes a number of features such as security guards, fencing, security feeds, intrusion detection technology, and other security measures. [Learn more about AWS physical security](https://aws.amazon.com/compliance/data-center/perimeter-layer/) and [controls](https://aws.amazon.com/compliance/data-center/controls/)
 
-Orlo's offices require card access which is logged and the building requires a seperate pass and is manned 24hrs a day. No platform data is stored on site.
+Orlo's offices require card access which is logged and the building requires a separate pass and is manned 24hrs a day. No platform data is stored on site.
 
 **Data hosting**
 
@@ -81,7 +81,7 @@ Our network security architecture consists of multiple security zones. We monito
 
 <!--- __Customization:__ No customization. You can name your provider. Delete section if no DDoS protection is in place. --->
 
-We use Distributed Denial of Service (DDoS) mitigation services powered by an industry-leading solution. You can read more about them here and there security:
+We use Distributed Denial of Service (DDoS) mitigation services powered by an industry-leading solution. You can read more about them here and their security:
 - [CloudFlare](https://www.cloudflare.com/en-gb/security/)
 - [AWS Sheild](https://aws.amazon.com/shield/)
 
@@ -94,10 +94,14 @@ We use Distributed Denial of Service (DDoS) mitigation services powered by an in
 <!--- __Customization:__ You could add more information on your encryption strategy (e.g. algorithm used), but it’s not required. --->
 
 Encryption in transit: All data sent to, from or between our infrastructure is encrypted in transit via industry best-practices using Transport Layer Security (TLS).
+
 All our assets such as HTML, CSS and the likes are served over encrypted (TLS 1.1 and 1.2) which are rated "A" by sssllabs, you can see the report here here: https://goo.gl/36EK48.
+
 When using our web or mobile application all data is encrypted during transit to and from our servers (TLS 1.1 and 1.2) you which is graded "A" by sssllabs, you can see the report here here: https://goo.gl/ZujYmH
 
-Password encryption: All passwords are encrypted using battled-proofed encryption algorithms in the database.
+All data is encrypted at rest using the corresponding platform's block device encryption support.
+
+Password encryption: All passwords are stored using industry standard hashing algorithms (currently: bcrypt).
 
 ## Data retention and removal
 
@@ -133,6 +137,7 @@ We also monitor all our upstream providers which can be found here as well.
 **Backups**
 
 We back up all our critical assets to separate servers using encryption in transit.
+
 We manually document and audit the backups weekly through our audit plan to ensure they are valid and working and annually attempt to restore our entire system including the backups fully to guarantee a fast recovery in case of disaster.
 
 **Disaster Recovery**
@@ -160,7 +165,7 @@ All our networks are highly available (provided by cloud providers) and API serv
 - Our servers automatically run and update antivirus scanners
 -
 
-We have procedures in place to to triage and remedy reported bugs and security vulnerabilities for product and service offering.
+We have procedures in place to triage and remedy reported bugs and security vulnerabilities for product and service offering.
 
 ## Application security protection
 

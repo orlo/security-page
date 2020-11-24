@@ -3,7 +3,7 @@
 Our customers range from SMB to enterprise organisations such as banks, government departments and police forces, all of which trust us with their data. Keeping our customers' data safe is our priority.
 
 ## Overview
-Orlo uses certain sub-processors and content delivery networks to assist it in providing the Orlo's Services.
+Orlo uses certain sub-processors and content delivery networks to assist it in providing the Services.
 
 ## What is a Sub-processor
 A sub-processor is a third party data processor engaged by Orlo, who has or potentially will have access to or process
@@ -11,13 +11,13 @@ Service Data (which may contain Personal Data). Orlo engages different types of 
 functions as explained in the tables below.
 
 ## Due Diligence
-Orlo undertakes to use a commercially reasonable selection process by which it evaluates the security, privacy and
+Orlo uses a commercially reasonable selection process by which it evaluates the security, privacy and
 confidentiality practices of proposed sub-processors that will or may have access to or otherwise process Service Data.
 
 
 ## Process to Engage New Sub-processors:
 For all Subscribers who have executed Orlo’s standard DPA, Orlo will provide notice via this policy of updates to the
-list of sub-processors that are utilized or which Orlo proposes to utilize to deliver its Services. Orlo undertakes to
+list of sub-processors that are utilized or which Orlo proposes to utilize to deliver its Services. Orlo will
 keep this list updated regularly to enable its Subscribers to stay informed of the scope of sub-processing associated
 with the Orlo's Services.
 

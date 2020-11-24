@@ -111,7 +111,7 @@ Password encryption: All passwords are stored using industry standard hashing al
 
 <!--- __Customization:__ Highly customizable. Adapt the section to reflect your practices and define “usage data” (it could be events, logs etc.). Link to your privacy page. --->
 
-We retain your data for as long as you have a active contract with us after which we will delete your all your data.
+We retain your data for as long as you have an active contract with us after which we will delete your all your data.
 Your data will be removed from our various backups 4 weeks after deletion.
 
 If you would like to ready more about data privacy and protection please see our [resource here](./index.html?privacy_and_data_protection#what-happens-to-our-data-at-the-end-of-the-contract-)
@@ -138,17 +138,17 @@ We also monitor all our upstream providers which can be found here as well.
 
 We back up all our critical assets to separate servers using encryption in transit.
 
-We manually document and audit the backups weekly through our audit plan to ensure they are valid and working and annually attempt to restore our entire system including the backups fully to guarantee a fast recovery in case of disaster.
+We manually document and audit the backups weekly through our audit plan to ensure they are valid and working and annually attempt to restore our entire system including the backups fully to guarantee a fast recovery in the unlikely event of disaster.
 
 **Disaster Recovery**
 
-Orlo holds and reviews regularly a business continuity policy and disaster recovery plan in case of a disaster to ensure minimal disruption for our customers. This is tested fully yearly and updated on changes to infrastructure.
+Orlo holds and reviews regularly a business continuity policy and disaster recovery plan in the unlikely event of a disaster to ensure minimal disruption for our customers. This is tested fully yearly and updated on changes to infrastructure.
 We also review all social networks for up and coming changes as part of our audit plan to ensure our customers are not left behind or without service due to changes.
 
 **Redundancy**
 
-Orlo maintains highly available databases where possible mean that if a server was to go offline our service would continue with no interruption of no data loss.
-Where we're not able to put inplace highly available databses we have hot slaves databases ready to go in case of server failure.
+Orlo maintains highly available databases where possible meaning that if a server was to go offline our service would continue with no interruption or no data loss.
+Where we're not able to put inplace highly available databases we have hot slaves databases ready to go in the unlikley event of server failure.
 All our networks are highly available (provided by cloud providers) and API servers are auto scaling
 
 ## Application security monitoring
@@ -175,7 +175,7 @@ We have procedures in place to triage and remedy reported bugs and security vuln
 
 <!--- __Customization:__ Medium customization. Delete the tools you’re not using. --->
 
-- We do not deploy or need installed any applications on your systems. Orlo runs entirely through the browser and support Internet Explorer 11+, Chrome, Firefox
+- We do not deploy or install any applications on your systems. Orlo runs entirely through the browser and support Internet Explorer 11+, Chrome, Firefox
 - We use security headers to protect our users from attacks. You can check our grade on [this security scanner](https://www.sqreen.com/scan?url=https://app.socialsignin.co.uk).
 - We use security automation capabilities that automatically detect and respond to threats targeting our apps and check vulnerabilities in our dependencies.
 
@@ -196,7 +196,7 @@ We use the following best practices to ensure the highest level of security in o
 - We regularly update our dependencies and make sure none of them has known vulnerabilities automatically through every deployment
 - We use Static Application Security Testing (SAST) to detect basic security vulnerabilities in our codebase automatically in every deployment
 - We rely on yearly third-party CREST accredited security experts to perform penetration tests of our applications. We fix all critical, high risks found immediately and medium and low risks are scheduled in to the road map respectively. 
-You view our latest penetration test results [here](./files/orlo_pentest_2020.pdf)
+You can view our latest penetration test results [here](./files/orlo_pentest_2020.pdf)
 
 ## Responsible disclosure
 
@@ -270,7 +270,7 @@ Role-based access control (RBAC) is offered on all our accounts and allows our u
 
 **ICO Registration**
 
-Orlo is registered on the data protection public register with the [ICO](https://ico.org.uk/ESDWebPages/Entry/ZA181887) under reference number #ZA181887 as SocialSignIn. You can download our latest certificate here: [ICO Certificate](files/orlo_ico_certificate.pdf)
+Orlo is registered on the data protection public register with the [ICO](https://ico.org.uk/ESDWebPages/Entry/ZA181887) under reference number #ZA181887 as SocialSignIn Ltd. You can download our latest certificate here: [ICO Certificate](files/orlo_ico_certificate.pdf)
 
 **Cyber Essentials**
 
@@ -297,7 +297,7 @@ You can find out more from our [Privacy and Data Protection Page](./index.html?p
 <!--- __Customization:__ This section should be customized to reflect your internal practices. --->
 
 - Our strict internal procedure prevents unnecessary employees or administrators from gaining access to your data.
-- All employees with access to live/private data has been vetted and DBS checked and Non Police Personal Vetting Level 2 (NPPV level 2) standard.
-- All our employees have Non-Disclosure and Confidentiality Agreements in there contract to protect our customers' sensitive information.
+- All employees with access to live/private data has been vetted and DBS checked and Non Police Personel Vetting Level 2 (NPPV level 2) standard.
+- All our employees have Non-Disclosure and Confidentiality Agreements in their contract to protect our customers' sensitive information.
 - All employees in the company carry out security and data classification training.
 - We also maintain good on boarding and off boarding practices as well as a set of policies shared across the company. A policy map can be seen here: [Policy Map](files/orlo_policy_map.pdf)

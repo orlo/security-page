@@ -6,13 +6,15 @@ which is embedded within our software, systems and processes.
 
 Keeping our customers' data protected at all times is our highest priority. We help do this in many ways
 
-- **Data security:** We ensure we are meeting highest of security standards such as encryption of data in transit
+- **Data security:** We ensure we are meeting the highest of security standards such as encryption of data in transit
 Distributed Denial of Service (“DDoS”) mitigations, and a Support team available through live chat. 
-- **Disclosure of Customer Service Data:** Orlo only discloses data where necessary to provide service or as required 
-to respond to lawful requests from public authorities.
+- **Disclosure of Customer Service Data:** Orlo discloses data where necessary to provide service or as required 
+to respond to lawful requests from public authorities. For further details
+as to the ways in which Orlo may share Customer Service Data with third parties please refer to
+our privacy policy
 - **Trust**: Orlo has developed our platform with security in mind to ensure a secure enviroment for our customers
-data. We use external CREST accredited third parties to verify our security through pen tests from both a external 
-attacker and a internal user. 
+data. We use external CREST accredited third parties to verify our security through pen tests from both an external 
+attacker and an internal user. 
 - **Data Location:** All our data is stored and does not leave the E.U.
 - **Access Management:** Orlo provides an advanced set of access and encryption features to help customers effectively 
 protect their information. We do not access or use customer content for any purpose other than providing, 
@@ -23,7 +25,7 @@ maintaining and improving the services and as otherwise required by law.
 You are the data controller of all personal data held in our application under your account and Orlo is merely your data 
 processor in respect of all the services provided to you.  Our processing of your personal data is only on your 
 documented instructions as set out in the contract between us.  We do not use any of your personal data for anything 
-that is not in the contract.
+that is not in the contract or the privacy policy.
 
 ## What personal data is stored within the Orlo application?
 
@@ -51,7 +53,7 @@ No other information is retained or stored.
 ## What procedures are in place to deal with data breaches?
 
 We are proud of our record of having no reportable data breaches to date.  However, we know the importance of being 
-prepared for an incident.
+prepared in the unlikely event of an incident.
 
 All security incidents and platform wide issues will be recorded in a Major Incident Report which will cover: the 
 nature of the incident, the impact on your business and data subjects the resolution and any preventative action 
@@ -96,7 +98,7 @@ they are enhanced.  These include:
 [here](./index.html#secure-development) and you can see our latest results from our penetration test 
 [here](./files/orlo_pentest_2020.pdf)
 
-We have some continual end-to-end testing of our server cluster to ensure specific key indicators are working correctly and use software to log and track with a combination of active checks and, for some things, such as back-ups, passive checks.  Our set up allows use to detect unexpected behavior early and team members are alerted if an expected behavior has not executed as expected. 
+We have some continual end-to-end testing of our server cluster to ensure specific key indicators are working correctly and use software to log and track with a combination of active checks and, for some things, such as back-ups, passive checks.  Our set up allows use to detect unexpected behaviour early and team members are alerted if an expected behaviour has not executed as expected. 
 
 Our code is written to log any critical events for our developers to address. 
 
@@ -104,7 +106,7 @@ Our code is written to log any critical events for our developers to address.
 ## GDPR
 
 ### What is GDPR
-he General Data Protection Regulation (“GDPR”) is the European privacy regulation which replaced the EU 
+The General Data Protection Regulation (“GDPR”) is the European privacy regulation which replaced the EU 
 Data Protection Directive (“Directive 95/46/EC”). The GDPR addresses the processing of personal data and the free 
 movement of such data. It aims to strengthen the security and protection of personal data in the EU and harmonize EU 
 data protection law. Broadly, it sets out a number of data protection principles and requirements which must be 
@@ -115,7 +117,7 @@ applied consistently across the EU and works to ensure effective cooperation amo
 
 
 ### How does this apply to Orlo's customers?
-customers that collect and store personal data are considered data controllers under the GDPR. Data controllers bear 
+Customers that collect and store personal data are considered data controllers under the GDPR. Data controllers bear 
 the primary responsibility for ensuring that their processing of personal data is compliant with relevant EU data 
 protection law, including the GDPR and uniquely determine what personal data is submitted to, and processed by, 
 Orlo in accordance with the Services.
@@ -123,7 +125,7 @@ Orlo in accordance with the Services.
 
 ### Are the systems used by Orlo GDPR compliant?
 
-We carried out a Privacy Impact Assessment of our software, systems and services and have made changes to ensure 
+We have carried out a Privacy Impact Assessment of our software, systems and services and have made changes to ensure 
 we meet and, in some cases, exceed GDPR requirements.  
 
 Our system architecture was developed with data protection and data security in mind. The databases in which your 
@@ -131,13 +133,13 @@ personal data is stored are only accessible by a small division of the internal 
 vetted and have worked for us for a substantial amount of time. If you would like to find out more about our security 
 and infrastructure please see our public [Security & Compliance Page](./index.html)
 
-### As a data processor, how do we handle request made by End-Users?
+### As a data processor, how do we handle requests made by End-Users?
 
 If Orlo receives a data subject request from a Subscriber’s End-User (i.e., a user of the Services to whom a 
 Subscriber has provided our Services), Orlo is the Processor, and Orlo will, to the extent that applicable legislation 
 does not prohibit Orlo from doing so, promptly inform the End-User to contact our Subscriber (i.e. the Controller) 
 directly about any request relating to his/her Personal Data such as access or deletion. 
-Orlo will not further respond to a data subject request without Subscriber’s prior consent.
+Orlo will not further respond to a data subject request without the Subscriber’s prior consent.
 
 ### Does Orlo need access to your systems?
 
@@ -145,7 +147,7 @@ We do not need access to your system unless requested for training or demo purpo
 
 ### Will Orlo help us comply with data subject rights?
 
-You have full control over your user data and data from followers so you should be able to manage all data subject rights yourself just by using the application.  If you need any specific guidance on how to do this, you can use our ‘help’ feature in the application or consult our user guide or use our online chat facility.
+You have full control over your user data and data from followers so you should be able to manage all data subject rights yourself just by using the application.  If you need any specific guidance on how to do this, you can use our ‘help’ feature in the application, consult our user guide or use our online chat facility.
 
 ### Will we be able to audit Orlo premises and systems for compliance?
 
@@ -155,5 +157,5 @@ to check our systems and provide a report on compliance each year and we are hap
 your peace of mind. You can find a copy of the latest report [here](./files/orlo_pentest_2019.pdf)
 
 Of course, if a court or regulatory body requires us to give you access, we will honour that requirement but will 
-require you comply with our security and health and safety requirements in doing so. 
+require that you comply with our security and health and safety requirements in doing so. 
 
